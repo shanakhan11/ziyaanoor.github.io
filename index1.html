@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ziyaa Noor | Luxury Candles</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet">
+
+<style>
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0a0a0a;
+    color: #f5f5f5;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: black;
+    border-bottom: 1px solid #d4af37;
+}
+
+header h1 {
+    color: #d4af37;
+    font-family: 'Playfair Display', serif;
+}
+
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1603006905409-8c1b1f69b3b3') center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 60px;
+    font-family: 'Playfair Display';
+}
+
+.btn {
+    background: #d4af37;
+    border: none;
+    padding: 12px 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* SECTION */
+section {
+    padding: 80px 60px;
+}
+
+/* ABOUT */
+.about {
+    max-width: 900px;
+}
+
+/* PRODUCTS */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: #111;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #d4af37;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* BENEFITS */
+.benefits {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 30px;
+    background: black;
+    border-top: 1px solid #d4af37;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Ziyaa Noor</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<div class="hero" id="home">
+    <div>
+        <h2>Luxury in Every Flame</h2>
+        <p>Handcrafted candles designed for elegance & peace</p>
+        <button class="btn">Shop Now</button>
+    </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+    <h2 style="color:#d4af37;">Our Story</h2>
+    <p>
+        Ziyaa Noor was born from a passion for elegance and peace. In a fast-moving world,
+        we believe every home deserves a touch of calm and luxury. Our candles are not just products,
+        they are experiences crafted to elevate your lifestyle.
+    </p>
+
+    <h2 style="color:#d4af37;">Why Choose Us</h2>
+    <p>
+        Each candle is made with premium wax, long-lasting fragrance, and aesthetic designs.
+        Whether you're relaxing, working, or celebrating, our candles transform your space
+        into a sanctuary.
+    </p>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products">
+    <h2 style="color:#d4af37;">Our Collection</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1616627981595-44f86c2e2e2b">
+            <h3>Rose Gold Candle</h3>
+            <p>Elegant floral fragrance</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1607082349566-187342175e2f">
+            <h3>Lavender Serenity</h3>
+            <p>Relax & unwind</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf">
+            <h3>Vanilla Luxury</h3>
+            <p>Warm and cozy vibes</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108">
+            <h3>Midnight Oud</h3>
+            <p>Deep rich fragrance</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- BENEFITS -->
+<section>
+    <h2 style="color:#d4af37;">Benefits of Our Candles</h2>
+
+    <div class="benefits">
+        <div class="card">
+            <h3>Stress Relief</h3>
+            <p>Creates a calm and peaceful environment</p>
+        </div>
+
+        <div class="card">
+            <h3>Better Sleep</h3>
+            <p>Soothing scents help you relax</p>
+        </div>
+
+        <div class="card">
+            <h3>Luxury Feel</h3>
+            <p>Enhances your home aesthetics</p>
+        </div>
+
+        <div class="card">
+            <h3>Perfect Gift</h3>
+            <p>Ideal for special occasions</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2 style="color:#d4af37;">Contact Us</h2>
+    <p>Email: ziyaanoor@email.com</p>
+    <p>Instagram: @ziyaanoor</p>
+</section>
+
+<footer>
+    <p>© 2026 Ziyaa Noor | Luxury Candles</p>
+</footer>
+
+</body>
+</html>
